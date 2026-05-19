@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build output
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+
+# local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# optional: backend generated storage
+backend/storage/
